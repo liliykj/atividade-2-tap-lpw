@@ -10,5 +10,6 @@ let total = calcular * valor
 
 outValor.textContent = "Valor a Pagar R$: " + total
 }
+
 let mostrar = document.getElementById("mostrar") 
 mostrar.addEventListener("click", calcularValor)

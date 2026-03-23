@@ -13,5 +13,6 @@ let valorFinal = total - desconto
 outMedicamento.textContent = "Promoção de " + medicamento
 outPromocao.textContent = "Leve 2 por apenas R$ " + valorFinal
 }
+
 let mostrar = document.getElementById("mostrar") 
 mostrar.addEventListener ("click", calcularPromocao)

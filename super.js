@@ -15,5 +15,6 @@ outPromocao.textContent = "Leve 3 por apenas R$ " + valorFinal
 outUltimo.textContent = "O terceiro produto ficou por R$" + precoUltimo
 }
 
+
 let mostrar = document.getElementById("mostrar") 
 mostrar.addEventListener("click", calcularPromocao)
